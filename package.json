@@ -1,0 +1,38 @@
+{
+  "name": "kdupress-plugin-container",
+  "version": "2.0.2",
+  "main": "src/index.js",
+  "description": "A KduPress plugin that that registers markdown containers.",
+  "author": "NKDuy",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kdujs/kdupress-plugin-container.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kdujs/kdupress-plugin-container/issues"
+  },
+  "homepage": "https://github.com/kdujs/kdupress-plugin-container#readme",
+  "scripts": {
+    "lint": "eslint . --fix"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.3.2",
+    "eslint-plugin-kdu": "^5.0.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "dependencies": {
+    "markdown-it-container": "^2.0.0"
+  },
+  "keywords": [
+    "kdupress",
+    "plugin",
+    "markdown",
+    "container"
+  ]
+}
